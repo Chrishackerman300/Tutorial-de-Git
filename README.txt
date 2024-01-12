@@ -53,4 +53,11 @@ Git se utiliza es la mayoria de las empres TEC o que tengan su propio departamen
 14.- git status -s
     Este comando es lo mismo que el anterior pero solo nos muestra los archivos que están o aún no están en la etapa de stage.
 
-15.
+15. git add <File>
+    Este comando agrega el archivo con un nombre en específico a la etapa stage de nuestro repositorio de git.
+
+16.- git add .
+    Este comando agrega todos los archivos dentro de nuestra carpeta al repositorio de git. (No se recomienda utilizar este).
+
+17.- git commit -m "Comment"
+    Este comando compromete el archivo de la etapa de stage y lo sube a nuestro repositorio, es nesario ponerle un mensaje.
