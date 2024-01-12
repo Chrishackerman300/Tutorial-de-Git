@@ -61,3 +61,48 @@ Git se utiliza es la mayoria de las empres TEC o que tengan su propio departamen
 
 17.- git commit -m "Comment"
     Este comando compromete el archivo de la etapa de stage y lo sube a nuestro repositorio, es nesario ponerle un mensaje.
+
+18.- git commit -a 
+    Este comando abre un archivo en nuetro editor de código y ahí le escribimos el mensaje y depués lo cerramos. Compromete todo de igual forma.
+
+19.- rm <File>
+    Este comando elimina un archivo de nuestro branch de git.
+
+20.- git restore --staged <File>
+    Este comando sirve para sacar un archivo en la etapa de stage.
+
+21.- git restore <File>
+    Este comando sirve para recuperar el archivo de stage.
+
+22.- mv <File> <File>
+    Con este comando podemos cambiar el nombre de un archivo un ejmplo sería: mv index.html proyect.html.
+
+23.- git diff
+    Con este comando vemos de una forma mas visual los cambios del archivo.
+
+24.- git branch
+    Este comando muestra la rama en la que estamos.
+
+25.- git branch -m "Nombre Rama"
+    Este comando sirve para cambiar el nombre de una rama de nuestro git.
+
+26.- git checkout -b "Nombre Rama"
+    Este comando sirve para crear una nueva y cambiarnos de rama.
+
+27.- git checkout "Nombre Rama"
+    Con este comando cambiamos a una rama ya existente.
+
+28.- git log
+    Este comando mostrara a detalle el historial de nuestro repositorio de git.
+
+29.- git log --oneline
+    Este comando mostrará la información mas importante del historial de nuestro repositorio de git.
+
+30.- cat <File>
+    Este comando mostrara el contenido del archivo.
+
+31.- git merge "branch"
+    Este comando sireve para enviar las modificaciones de un branch al branch principal.
+
+32.- git branch -d "Nombre branch"
+    Este comando eliminara una rama de nuestro branch
