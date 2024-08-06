@@ -106,3 +106,6 @@ Git se utiliza es la mayoria de las empres TEC o que tengan su propio departamen
 
 32.- git branch -d "Nombre branch"
     Este comando eliminara una rama de nuestro branch
+
+33.- git push origin nombre de la rama
+    Este comando sirve para mandar a nuestro repositorio todos nuestros archivos creador en la rama, cuando modifiquemos un archivo existente, debemos insertarlo de nuevo a la rama.
